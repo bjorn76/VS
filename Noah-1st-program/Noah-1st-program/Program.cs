@@ -14,6 +14,7 @@ namespace Noah_1st_program
         [STAThread]
         static void Main()
         {
+            // git test line
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
