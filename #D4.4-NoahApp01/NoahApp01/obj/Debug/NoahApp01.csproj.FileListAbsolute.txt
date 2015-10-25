@@ -1,0 +1,7 @@
+\\Disk213\home\MyDoc\SharpDevelop Projects\NoahApp01\NoahApp01\bin\Debug\NoahApp01.exe
+\\Disk213\home\MyDoc\SharpDevelop Projects\NoahApp01\NoahApp01\bin\Debug\NoahApp01.pdb
+\\Disk213\home\MyDoc\SharpDevelop Projects\NoahApp01\NoahApp01\obj\Debug\NoahApp01.csprojResolveAssemblyReference.cache
+\\Disk213\home\MyDoc\SharpDevelop Projects\NoahApp01\NoahApp01\obj\Debug\NoahApp01.exe
+\\Disk213\home\MyDoc\SharpDevelop Projects\NoahApp01\NoahApp01\obj\Debug\NoahApp01.pdb
+\\Disk213\home\MyDoc\SharpDevelop Projects\NoahApp01\NoahApp01\obj\Debug\NoahApp01.MainForm.resources
+\\Disk213\home\MyDoc\SharpDevelop Projects\NoahApp01\NoahApp01\obj\Debug\NoahApp01.csproj.GenerateResource.Cache
