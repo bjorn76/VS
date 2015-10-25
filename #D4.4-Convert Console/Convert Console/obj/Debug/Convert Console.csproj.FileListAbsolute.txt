@@ -3,3 +3,8 @@
 \\Disk213\home\MyDoc\SharpDevelop Projects\Convert Console\Convert Console\obj\Debug\Convert Console.csprojResolveAssemblyReference.cache
 \\Disk213\home\MyDoc\SharpDevelop Projects\Convert Console\Convert Console\obj\Debug\Convert Console.exe
 \\Disk213\home\MyDoc\SharpDevelop Projects\Convert Console\Convert Console\obj\Debug\Convert Console.pdb
+C:\Users\Björn\GitHub\VS\#D4.4-Convert Console\Convert Console\bin\Debug\Convert Console.exe
+C:\Users\Björn\GitHub\VS\#D4.4-Convert Console\Convert Console\bin\Debug\Convert Console.pdb
+C:\Users\Björn\GitHub\VS\#D4.4-Convert Console\Convert Console\obj\Debug\Convert Console.csprojResolveAssemblyReference.cache
+C:\Users\Björn\GitHub\VS\#D4.4-Convert Console\Convert Console\obj\Debug\Convert Console.exe
+C:\Users\Björn\GitHub\VS\#D4.4-Convert Console\Convert Console\obj\Debug\Convert Console.pdb
