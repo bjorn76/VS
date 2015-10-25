@@ -1,0 +1,9 @@
+\\Disk213\home\MyDoc\SharpDevelop Projects\Format Util\C# and VB\C#,VB\FormatUtilityCS\bin\Debug\Formatter.exe
+\\Disk213\home\MyDoc\SharpDevelop Projects\Format Util\C# and VB\C#,VB\FormatUtilityCS\bin\Debug\Formatter.pdb
+\\Disk213\home\MyDoc\SharpDevelop Projects\Format Util\C# and VB\C#,VB\FormatUtilityCS\obj\x86\Debug\FormatUtilityCS.csprojResolveAssemblyReference.cache
+\\Disk213\home\MyDoc\SharpDevelop Projects\Format Util\C# and VB\C#,VB\FormatUtilityCS\obj\x86\Debug\Formatter.Form1.resources
+\\Disk213\home\MyDoc\SharpDevelop Projects\Format Util\C# and VB\C#,VB\FormatUtilityCS\obj\x86\Debug\Formatter.Properties.Resources.resources
+\\Disk213\home\MyDoc\SharpDevelop Projects\Format Util\C# and VB\C#,VB\FormatUtilityCS\obj\x86\Debug\Formatter.Resources.resources
+\\Disk213\home\MyDoc\SharpDevelop Projects\Format Util\C# and VB\C#,VB\FormatUtilityCS\obj\x86\Debug\FormatUtilityCS.csproj.GenerateResource.Cache
+\\Disk213\home\MyDoc\SharpDevelop Projects\Format Util\C# and VB\C#,VB\FormatUtilityCS\obj\x86\Debug\Formatter.exe
+\\Disk213\home\MyDoc\SharpDevelop Projects\Format Util\C# and VB\C#,VB\FormatUtilityCS\obj\x86\Debug\Formatter.pdb
