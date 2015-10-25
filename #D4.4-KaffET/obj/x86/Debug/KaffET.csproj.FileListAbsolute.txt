@@ -1,0 +1,70 @@
+C:\Users\Björn\Documents\SharpDevelop Projects\PC_AlarmClock\KaffET\bin\Debug\KaffET.exe
+C:\Users\Björn\Documents\SharpDevelop Projects\PC_AlarmClock\KaffET\bin\Debug\KaffET.pdb
+C:\Users\Björn\Documents\SharpDevelop Projects\PC_AlarmClock\KaffET\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Björn\Documents\SharpDevelop Projects\PC_AlarmClock\KaffET\obj\x86\Debug\KaffET.Form2.resources
+C:\Users\Björn\Documents\SharpDevelop Projects\PC_AlarmClock\KaffET\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Users\Björn\Documents\SharpDevelop Projects\PC_AlarmClock\KaffET\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Users\Björn\Documents\SharpDevelop Projects\PC_AlarmClock\KaffET\obj\x86\Debug\KaffET.exe
+C:\Users\Björn\Documents\SharpDevelop Projects\PC_AlarmClock\KaffET\obj\x86\Debug\KaffET.pdb
+C:\Users\Björn\Documents\SharpDevelop Projects\PC_AlarmClock\KaffET\obj\x86\Debug\PC_AlarmClock.Form1.resources
+C:\Users\Björn\Documents\SharpDevelop Projects\PC_AlarmClock\KaffET\obj\x86\Debug\KaffET.SingletonNotificationIcon.resources
+C:\Users\Björn\Documents\SharpDevelop Projects\KaffET_v0.0.1\bin\Debug\KaffET.exe
+C:\Users\Björn\Documents\SharpDevelop Projects\KaffET_v0.0.1\bin\Debug\KaffET.pdb
+C:\Users\Björn\Documents\SharpDevelop Projects\KaffET_v0.0.1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Björn\Documents\SharpDevelop Projects\KaffET_v0.0.1\obj\x86\Debug\PC_AlarmClock.Form1.resources
+C:\Users\Björn\Documents\SharpDevelop Projects\KaffET_v0.0.1\obj\x86\Debug\KaffET.Form2.resources
+C:\Users\Björn\Documents\SharpDevelop Projects\KaffET_v0.0.1\obj\x86\Debug\KaffET.SingletonNotificationIcon.resources
+C:\Users\Björn\Documents\SharpDevelop Projects\KaffET_v0.0.1\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Users\Björn\Documents\SharpDevelop Projects\KaffET_v0.0.1\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Users\Björn\Documents\SharpDevelop Projects\KaffET_v0.0.1\obj\x86\Debug\KaffET.exe
+C:\Users\Björn\Documents\SharpDevelop Projects\KaffET_v0.0.1\obj\x86\Debug\KaffET.pdb
+C:\Users\Björn\Documents\SharpDevelop Projects\KaffET_v0.0.1\obj\x86\Debug\KaffET.FrmKaffETalarm.resources
+C:\Users\Björn\Documents\SharpDevelop Projects\KaffET_v0.0.2\bin\Debug\KaffET.exe
+C:\Users\Björn\Documents\SharpDevelop Projects\KaffET_v0.0.2\bin\Debug\KaffET.pdb
+C:\Users\Björn\Documents\SharpDevelop Projects\KaffET_v0.0.2\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Björn\Documents\SharpDevelop Projects\KaffET_v0.0.2\obj\x86\Debug\PC_AlarmClock.Form1.resources
+C:\Users\Björn\Documents\SharpDevelop Projects\KaffET_v0.0.2\obj\x86\Debug\KaffET.Form2.resources
+C:\Users\Björn\Documents\SharpDevelop Projects\KaffET_v0.0.2\obj\x86\Debug\KaffET.FrmKaffETalarm.resources
+C:\Users\Björn\Documents\SharpDevelop Projects\KaffET_v0.0.2\obj\x86\Debug\KaffET.SingletonNotificationIcon.resources
+C:\Users\Björn\Documents\SharpDevelop Projects\KaffET_v0.0.2\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Users\Björn\Documents\SharpDevelop Projects\KaffET_v0.0.2\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Users\Björn\Documents\SharpDevelop Projects\KaffET_v0.0.2\obj\x86\Debug\KaffET.exe
+C:\Users\Björn\Documents\SharpDevelop Projects\KaffET_v0.0.2\obj\x86\Debug\KaffET.pdb
+C:\Users\Björn\Documents\SharpDevelop Projects\KaffET_v0.0.2\obj\x86\Debug\KaffET.KaffETResource.resources
+C:\Users\Björn\Documents\SharpDevelop Projects\KaffET_v0.0.3\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Björn\Documents\SharpDevelop Projects\KaffET_v0.0.3\obj\x86\Debug\PC_AlarmClock.Form1.resources
+C:\Users\Björn\Documents\SharpDevelop Projects\KaffET_v0.0.3\obj\x86\Debug\KaffET.Form2.resources
+C:\Users\Björn\Documents\SharpDevelop Projects\KaffET_v0.0.3\obj\x86\Debug\KaffET.FrmKaffETalarm.resources
+C:\Users\Björn\Documents\SharpDevelop Projects\KaffET_v0.0.3\obj\x86\Debug\KaffET.SingletonNotificationIcon.resources
+C:\Users\Björn\Documents\SharpDevelop Projects\KaffET_v0.0.3\obj\x86\Debug\KaffET.KaffETResource.resources
+C:\Users\Björn\Documents\SharpDevelop Projects\KaffET_v0.0.3\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Users\Björn\Documents\SharpDevelop Projects\KaffET_v0.0.3\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Users\Björn\Documents\SharpDevelop Projects\KaffET_v0.0.3\obj\x86\Debug\KaffET.exe
+C:\Users\Björn\Documents\SharpDevelop Projects\KaffET_v0.0.3\bin\Debug\KaffET.exe
+C:\Users\Björn\Documents\SharpDevelop Projects\KaffET_v0.0.3\bin\Debug\KaffET.pdb
+C:\Users\Björn\Documents\SharpDevelop Projects\KaffET_v0.0.3\obj\x86\Debug\KaffET.pdb
+C:\Users\Björn\GitHub\VS\#D4.4-KaffET_v0.0.3\obj\x86\Debug\KaffET.csprojResolveAssemblyReference.cache
+C:\Users\Björn\GitHub\VS\KaffET_v0.0.3\obj\x86\Debug\KaffET.csprojResolveAssemblyReference.cache
+C:\Users\Björn\GitHub\VS\KaffET_v0.0.3\bin\Debug\KaffET.exe.config
+C:\Users\Björn\GitHub\VS\KaffET_v0.0.3\bin\Debug\KaffET.exe
+C:\Users\Björn\GitHub\VS\KaffET_v0.0.3\bin\Debug\KaffET.pdb
+C:\Users\Björn\GitHub\VS\KaffET_v0.0.3\obj\x86\Debug\PC_AlarmClock.Form1.resources
+C:\Users\Björn\GitHub\VS\KaffET_v0.0.3\obj\x86\Debug\KaffET.Form2.resources
+C:\Users\Björn\GitHub\VS\KaffET_v0.0.3\obj\x86\Debug\KaffET.FrmKaffETalarm.resources
+C:\Users\Björn\GitHub\VS\KaffET_v0.0.3\obj\x86\Debug\KaffET.SingletonNotificationIcon.resources
+C:\Users\Björn\GitHub\VS\KaffET_v0.0.3\obj\x86\Debug\KaffET.KaffETResource.resources
+C:\Users\Björn\GitHub\VS\KaffET_v0.0.3\obj\x86\Debug\KaffET.csproj.GenerateResource.Cache
+C:\Users\Björn\GitHub\VS\KaffET_v0.0.3\obj\x86\Debug\KaffET.exe
+C:\Users\Björn\GitHub\VS\KaffET_v0.0.3\obj\x86\Debug\KaffET.pdb
+C:\Users\Björn\GitHub\VS\#D4.4-KaffET\bin\Debug\KaffET.exe.config
+C:\Users\Björn\GitHub\VS\#D4.4-KaffET\bin\Debug\KaffET.exe
+C:\Users\Björn\GitHub\VS\#D4.4-KaffET\bin\Debug\KaffET.pdb
+C:\Users\Björn\GitHub\VS\#D4.4-KaffET\obj\x86\Debug\KaffET.csprojResolveAssemblyReference.cache
+C:\Users\Björn\GitHub\VS\#D4.4-KaffET\obj\x86\Debug\PC_AlarmClock.Form1.resources
+C:\Users\Björn\GitHub\VS\#D4.4-KaffET\obj\x86\Debug\KaffET.Form2.resources
+C:\Users\Björn\GitHub\VS\#D4.4-KaffET\obj\x86\Debug\KaffET.FrmKaffETalarm.resources
+C:\Users\Björn\GitHub\VS\#D4.4-KaffET\obj\x86\Debug\KaffET.SingletonNotificationIcon.resources
+C:\Users\Björn\GitHub\VS\#D4.4-KaffET\obj\x86\Debug\KaffET.KaffETResource.resources
+C:\Users\Björn\GitHub\VS\#D4.4-KaffET\obj\x86\Debug\KaffET.csproj.GenerateResource.Cache
+C:\Users\Björn\GitHub\VS\#D4.4-KaffET\obj\x86\Debug\KaffET.exe
+C:\Users\Björn\GitHub\VS\#D4.4-KaffET\obj\x86\Debug\KaffET.pdb
