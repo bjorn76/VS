@@ -1,0 +1,10 @@
+C:\Users\Björn\Documents\SharpDevelop Projects\KaffET_v0.0.3\bin\Release\KaffET.exe
+C:\Users\Björn\Documents\SharpDevelop Projects\KaffET_v0.0.3\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\Björn\Documents\SharpDevelop Projects\KaffET_v0.0.3\obj\x86\Release\PC_AlarmClock.Form1.resources
+C:\Users\Björn\Documents\SharpDevelop Projects\KaffET_v0.0.3\obj\x86\Release\KaffET.Form2.resources
+C:\Users\Björn\Documents\SharpDevelop Projects\KaffET_v0.0.3\obj\x86\Release\KaffET.FrmKaffETalarm.resources
+C:\Users\Björn\Documents\SharpDevelop Projects\KaffET_v0.0.3\obj\x86\Release\KaffET.SingletonNotificationIcon.resources
+C:\Users\Björn\Documents\SharpDevelop Projects\KaffET_v0.0.3\obj\x86\Release\KaffET.KaffETResource.resources
+C:\Users\Björn\Documents\SharpDevelop Projects\KaffET_v0.0.3\obj\x86\Release\GenerateResource-ResGen.read.1.tlog
+C:\Users\Björn\Documents\SharpDevelop Projects\KaffET_v0.0.3\obj\x86\Release\GenerateResource-ResGen.write.1.tlog
+C:\Users\Björn\Documents\SharpDevelop Projects\KaffET_v0.0.3\obj\x86\Release\KaffET.exe
