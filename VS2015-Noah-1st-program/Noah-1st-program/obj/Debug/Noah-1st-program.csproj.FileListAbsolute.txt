@@ -1,0 +1,12 @@
+c:\users\björn\documents\visual studio 2015\Projects\Noah-1st-program\Noah-1st-program\bin\Debug\Noah-1st-program.exe.config
+c:\users\björn\documents\visual studio 2015\Projects\Noah-1st-program\Noah-1st-program\bin\Debug\Noah-1st-program.exe
+c:\users\björn\documents\visual studio 2015\Projects\Noah-1st-program\Noah-1st-program\bin\Debug\Noah-1st-program.pdb
+c:\users\björn\documents\visual studio 2015\Projects\Noah-1st-program\Noah-1st-program\obj\Debug\Noah-1st-program.csprojResolveAssemblyReference.cache
+c:\users\björn\documents\visual studio 2015\Projects\Noah-1st-program\Noah-1st-program\obj\Debug\Noah_1st_program.Form1.resources
+c:\users\björn\documents\visual studio 2015\Projects\Noah-1st-program\Noah-1st-program\obj\Debug\Noah_1st_program.Properties.Resources.resources
+c:\users\björn\documents\visual studio 2015\Projects\Noah-1st-program\Noah-1st-program\obj\Debug\Noah-1st-program.csproj.GenerateResource.Cache
+c:\users\björn\documents\visual studio 2015\Projects\Noah-1st-program\Noah-1st-program\obj\Debug\Noah-1st-program.exe
+c:\users\björn\documents\visual studio 2015\Projects\Noah-1st-program\Noah-1st-program\obj\Debug\Noah-1st-program.pdb
+C:\Users\Björn\GitHub\VS\Noah-1st-program\Noah-1st-program\bin\Debug\Noah-1st-program.exe.config
+C:\Users\Björn\GitHub\VS\Noah-1st-program\Noah-1st-program\obj\Debug\Noah-1st-program.exe
+C:\Users\Björn\GitHub\VS\Noah-1st-program\Noah-1st-program\obj\Debug\Noah-1st-program.pdb
