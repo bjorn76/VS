@@ -1,0 +1,12 @@
+\\Disk213\home\MyDoc\SharpDevelop Projects\AnalogClockDemo\AnalogClockDemo\bin\Debug\AnalogClockDemo.exe
+\\Disk213\home\MyDoc\SharpDevelop Projects\AnalogClockDemo\AnalogClockDemo\bin\Debug\AnalogClockDemo.pdb
+\\Disk213\home\MyDoc\SharpDevelop Projects\AnalogClockDemo\AnalogClockDemo\bin\Debug\AnalogClockDemo.xml
+\\Disk213\home\MyDoc\SharpDevelop Projects\AnalogClockDemo\AnalogClockDemo\bin\Debug\AnalogClockControl.dll
+\\Disk213\home\MyDoc\SharpDevelop Projects\AnalogClockDemo\AnalogClockDemo\bin\Debug\AnalogClockControl.xml
+\\Disk213\home\MyDoc\SharpDevelop Projects\AnalogClockDemo\AnalogClockDemo\obj\Debug\ResolveAssemblyReference.cache
+\\Disk213\home\MyDoc\SharpDevelop Projects\AnalogClockDemo\AnalogClockDemo\obj\Debug\AnalogClockDemo.Form1.resources
+\\Disk213\home\MyDoc\SharpDevelop Projects\AnalogClockDemo\AnalogClockDemo\obj\Debug\AnalogClockDemo.Resources.resources
+\\Disk213\home\MyDoc\SharpDevelop Projects\AnalogClockDemo\AnalogClockDemo\obj\Debug\AnalogClockDemo.vbproj.GenerateResource.Cache
+\\Disk213\home\MyDoc\SharpDevelop Projects\AnalogClockDemo\AnalogClockDemo\obj\Debug\AnalogClockDemo.exe
+\\Disk213\home\MyDoc\SharpDevelop Projects\AnalogClockDemo\AnalogClockDemo\obj\Debug\AnalogClockDemo.xml
+\\Disk213\home\MyDoc\SharpDevelop Projects\AnalogClockDemo\AnalogClockDemo\obj\Debug\AnalogClockDemo.pdb
