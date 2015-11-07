@@ -12,3 +12,10 @@ C:\Users\Björn\GitHub\VS\#D4.4-NoahApp01\NoahApp01\obj\Debug\NoahApp01.MainForm
 C:\Users\Björn\GitHub\VS\#D4.4-NoahApp01\NoahApp01\obj\Debug\NoahApp01.csproj.GenerateResource.Cache
 C:\Users\Björn\GitHub\VS\#D4.4-NoahApp01\NoahApp01\obj\Debug\NoahApp01.exe
 C:\Users\Björn\GitHub\VS\#D4.4-NoahApp01\NoahApp01\obj\Debug\NoahApp01.pdb
+C:\Users\johanb01\GitHub\bjorn76\VS\#D4.4-NoahApp01\NoahApp01\bin\Debug\NoahApp01.exe
+C:\Users\johanb01\GitHub\bjorn76\VS\#D4.4-NoahApp01\NoahApp01\bin\Debug\NoahApp01.pdb
+C:\Users\johanb01\GitHub\bjorn76\VS\#D4.4-NoahApp01\NoahApp01\obj\Debug\NoahApp01.csprojResolveAssemblyReference.cache
+C:\Users\johanb01\GitHub\bjorn76\VS\#D4.4-NoahApp01\NoahApp01\obj\Debug\NoahApp01.MainForm.resources
+C:\Users\johanb01\GitHub\bjorn76\VS\#D4.4-NoahApp01\NoahApp01\obj\Debug\NoahApp01.csproj.GenerateResource.Cache
+C:\Users\johanb01\GitHub\bjorn76\VS\#D4.4-NoahApp01\NoahApp01\obj\Debug\NoahApp01.exe
+C:\Users\johanb01\GitHub\bjorn76\VS\#D4.4-NoahApp01\NoahApp01\obj\Debug\NoahApp01.pdb
