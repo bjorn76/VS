@@ -43,18 +43,19 @@ namespace RegOffCon
             ComputerName = Environment.MachineName;
             newname = WinUserName + "_" + ComputerName;
 
-            Console.WriteLine("\r\n Your MS Office User name: {0}", ValueName1 );
+            Console.WriteLine("\r\n Welcome {0} to Björn J.'s MS Office User re-namer.", WinUserName);
+            Console.WriteLine("\r\n Your MS Office User Name is: {0}", ValueName1 );
             //Console.WriteLine("\r\n Your Win User name: {0}", WinUserName);
             //Console.WriteLine("\r\n Your Computer name: {0}", ComputerName);
 
-            Console.WriteLine("\r\n Press the \"y\" (and enter) to change Office Username to {0}.",newname);
+            Console.WriteLine("\r\n Press \"y\" (and enter) to change Office User Name to {0}.",newname);
 
 
             ChangeValue = Console.ReadLine();
             if (ChangeValue== "y")
             {
                 
-                Console.WriteLine("\r\n you have changed your Office UserName to: {0}", newname);
+                Console.WriteLine("\r\n You have changed your MS Office User Name to: {0}", newname);
                 Registry.SetValue(keyname, "UserName", newname);
             }
 
