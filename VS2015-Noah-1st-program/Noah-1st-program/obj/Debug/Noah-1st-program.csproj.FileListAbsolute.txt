@@ -16,6 +16,7 @@ C:\Users\Björn\GitHub\VS\Noah-1st-program\Noah-1st-program\obj\Debug\Noah-1st-p
 C:\Users\Björn\GitHub\VS\Noah-1st-program\Noah-1st-program\obj\Debug\Noah_1st_program.Form1.resources
 C:\Users\Björn\GitHub\VS\Noah-1st-program\Noah-1st-program\obj\Debug\Noah_1st_program.Properties.Resources.resources
 C:\Users\Björn\GitHub\VS\Noah-1st-program\Noah-1st-program\obj\Debug\Noah-1st-program.csproj.GenerateResource.Cache
+<<<<<<< HEAD
 C:\Users\johanb01\GitHub\bjorn76\VS\VS2015-Noah-1st-program\Noah-1st-program\bin\Debug\Noah-1st-program.exe.config
 C:\Users\johanb01\GitHub\bjorn76\VS\VS2015-Noah-1st-program\Noah-1st-program\obj\Debug\Noah-1st-program.exe
 C:\Users\johanb01\GitHub\bjorn76\VS\VS2015-Noah-1st-program\Noah-1st-program\obj\Debug\Noah-1st-program.pdb
@@ -25,3 +26,14 @@ C:\Users\johanb01\GitHub\bjorn76\VS\VS2015-Noah-1st-program\Noah-1st-program\obj
 C:\Users\johanb01\GitHub\bjorn76\VS\VS2015-Noah-1st-program\Noah-1st-program\obj\Debug\Noah_1st_program.Form1.resources
 C:\Users\johanb01\GitHub\bjorn76\VS\VS2015-Noah-1st-program\Noah-1st-program\obj\Debug\Noah_1st_program.Properties.Resources.resources
 C:\Users\johanb01\GitHub\bjorn76\VS\VS2015-Noah-1st-program\Noah-1st-program\obj\Debug\Noah-1st-program.csproj.GenerateResource.Cache
+=======
+C:\Users\noahh\GitHub\bjorn76\VS\VS2015-Noah-1st-program\Noah-1st-program\bin\Debug\Noah-1st-program.exe.config
+C:\Users\noahh\GitHub\bjorn76\VS\VS2015-Noah-1st-program\Noah-1st-program\obj\Debug\Noah-1st-program.exe
+C:\Users\noahh\GitHub\bjorn76\VS\VS2015-Noah-1st-program\Noah-1st-program\obj\Debug\Noah-1st-program.pdb
+C:\Users\noahh\GitHub\bjorn76\VS\VS2015-Noah-1st-program\Noah-1st-program\bin\Debug\Noah-1st-program.exe
+C:\Users\noahh\GitHub\bjorn76\VS\VS2015-Noah-1st-program\Noah-1st-program\bin\Debug\Noah-1st-program.pdb
+C:\Users\noahh\GitHub\bjorn76\VS\VS2015-Noah-1st-program\Noah-1st-program\obj\Debug\Noah-1st-program.csprojResolveAssemblyReference.cache
+C:\Users\noahh\GitHub\bjorn76\VS\VS2015-Noah-1st-program\Noah-1st-program\obj\Debug\Noah_1st_program.Form1.resources
+C:\Users\noahh\GitHub\bjorn76\VS\VS2015-Noah-1st-program\Noah-1st-program\obj\Debug\Noah_1st_program.Properties.Resources.resources
+C:\Users\noahh\GitHub\bjorn76\VS\VS2015-Noah-1st-program\Noah-1st-program\obj\Debug\Noah-1st-program.csproj.GenerateResource.Cache
+>>>>>>> a1ed44c097814768645374f04c114e047611a6ed

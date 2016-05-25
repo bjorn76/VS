@@ -78,18 +78,25 @@ namespace Noah_1st_program
 
         private void button4_Click(object sender, EventArgs e)
         {
-            toolTip1.Active = true;
-            toolTip1.Show("Hello", smileyoskar, 2000);
+
         }
 
-        private void Form1_MouseClick(object sender, MouseEventArgs e)
+    
+
+        private void btnBaloonTip_Click(object sender, EventArgs e)
         {
             notifyIcon1.Icon = SystemIcons.Exclamation;
-            notifyIcon1.BalloonTipTitle = "Balloon Tip Title";
+            notifyIcon1.BalloonTipTitle = "Detta är ett Balloon Tip Title";
             notifyIcon1.BalloonTipText = "Balloon Tip Text.";
-            notifyIcon1.BalloonTipIcon = ToolTipIcon.Error;
+            notifyIcon1.BalloonTipIcon = ToolTipIcon.Info;
             notifyIcon1.Visible = true;
             notifyIcon1.ShowBalloonTip(30000);
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            toolTip1.Active = true;
+            toolTip1.Show("Hello", smileyoskar, 2000);
         }
     }
 }

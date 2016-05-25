@@ -37,14 +37,17 @@
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
+            this.btnBaloonTip = new System.Windows.Forms.Button();
+            this.btnT = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.smileyoskar)).BeginInit();
             this.SuspendLayout();
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(12, 12);
+            this.button1.Location = new System.Drawing.Point(9, 10);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(56, 19);
             this.button1.TabIndex = 1;
             this.button1.Text = "reset";
             this.button1.UseVisualStyleBackColor = true;
@@ -54,7 +57,8 @@
             // 
             this.smileyoskar.BackColor = System.Drawing.Color.Transparent;
             this.smileyoskar.Image = ((System.Drawing.Image)(resources.GetObject("smileyoskar.Image")));
-            this.smileyoskar.Location = new System.Drawing.Point(1153, 144);
+            this.smileyoskar.Location = new System.Drawing.Point(865, 117);
+            this.smileyoskar.Margin = new System.Windows.Forms.Padding(2);
             this.smileyoskar.Name = "smileyoskar";
             this.smileyoskar.Size = new System.Drawing.Size(204, 204);
             this.smileyoskar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -69,9 +73,10 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(12, 41);
+            this.button2.Location = new System.Drawing.Point(9, 33);
+            this.button2.Margin = new System.Windows.Forms.Padding(2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.Size = new System.Drawing.Size(56, 19);
             this.button2.TabIndex = 4;
             this.button2.Text = "button2";
             this.button2.UseVisualStyleBackColor = true;
@@ -79,9 +84,10 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(93, 41);
+            this.button3.Location = new System.Drawing.Point(70, 33);
+            this.button3.Margin = new System.Windows.Forms.Padding(2);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
+            this.button3.Size = new System.Drawing.Size(56, 19);
             this.button3.TabIndex = 5;
             this.button3.Text = "button3";
             this.button3.UseVisualStyleBackColor = true;
@@ -89,9 +95,10 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(174, 41);
+            this.button4.Location = new System.Drawing.Point(130, 33);
+            this.button4.Margin = new System.Windows.Forms.Padding(2);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
+            this.button4.Size = new System.Drawing.Size(56, 19);
             this.button4.TabIndex = 6;
             this.button4.Text = "button4";
             this.button4.UseVisualStyleBackColor = true;
@@ -102,20 +109,42 @@
             this.notifyIcon1.Text = "notifyIcon1";
             this.notifyIcon1.Visible = true;
             // 
+            // btnBaloonTip
+            // 
+            this.btnBaloonTip.Location = new System.Drawing.Point(322, 126);
+            this.btnBaloonTip.Name = "btnBaloonTip";
+            this.btnBaloonTip.Size = new System.Drawing.Size(75, 23);
+            this.btnBaloonTip.TabIndex = 7;
+            this.btnBaloonTip.Text = "BaloonTip";
+            this.btnBaloonTip.UseVisualStyleBackColor = true;
+            this.btnBaloonTip.Click += new System.EventHandler(this.btnBaloonTip_Click);
+            // 
+            // btnT
+            // 
+            this.btnT.Location = new System.Drawing.Point(361, 61);
+            this.btnT.Name = "btnT";
+            this.btnT.Size = new System.Drawing.Size(75, 23);
+            this.btnT.TabIndex = 8;
+            this.btnT.Text = "Tool tip";
+            this.btnT.UseVisualStyleBackColor = true;
+            this.btnT.Click += new System.EventHandler(this.button5_Click);
+            // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1482, 353);
+            this.ClientSize = new System.Drawing.Size(1112, 287);
+            this.Controls.Add(this.btnT);
+            this.Controls.Add(this.btnBaloonTip);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.smileyoskar);
             this.Controls.Add(this.button1);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
             this.Text = "happy :)";
             this.Load += new System.EventHandler(this.Form1_Load);
-            this.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseClick);
             ((System.ComponentModel.ISupportInitialize)(this.smileyoskar)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -131,6 +160,8 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.NotifyIcon notifyIcon1;
+        private System.Windows.Forms.Button btnBaloonTip;
+        private System.Windows.Forms.Button btnT;
     }
 }
 
