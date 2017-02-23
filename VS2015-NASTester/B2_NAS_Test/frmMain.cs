@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace WindowsFormsApplication1
 {
     public partial class frmMain : Form
@@ -35,7 +36,8 @@ namespace WindowsFormsApplication1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
+            MySettings settings = MySettings.Load();
+
         }
 
         private void button3_Click(object sender, EventArgs e)
