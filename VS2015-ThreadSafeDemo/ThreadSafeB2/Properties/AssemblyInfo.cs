@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("SCEdt")]
+[assembly: AssemblyTitle("ThreadSafe")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("JMAB")]
-[assembly: AssemblyProduct("SCEdt")]
-[assembly: AssemblyCopyright("Copyright © JMAB 2016")]
+[assembly: AssemblyProduct("ThreadSafe")]
+[assembly: AssemblyCopyright("Copyright © JMAB 2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("7bef411d-1985-4d4f-a6f8-7280453aa71e")]
+[assembly: Guid("3395a1ad-29ce-4120-93ee-de60b2ee65d8")]
 
 // Version information for an assembly consists of the following four values:
 //
