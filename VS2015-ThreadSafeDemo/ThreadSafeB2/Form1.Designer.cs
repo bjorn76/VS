@@ -37,9 +37,9 @@
             // 
             // setTextUnsafeBtn
             // 
-            this.setTextUnsafeBtn.Location = new System.Drawing.Point(12, 48);
+            this.setTextUnsafeBtn.Location = new System.Drawing.Point(12, 12);
             this.setTextUnsafeBtn.Name = "setTextUnsafeBtn";
-            this.setTextUnsafeBtn.Size = new System.Drawing.Size(75, 23);
+            this.setTextUnsafeBtn.Size = new System.Drawing.Size(87, 23);
             this.setTextUnsafeBtn.TabIndex = 0;
             this.setTextUnsafeBtn.Text = "setTextUnsafeBtn";
             this.setTextUnsafeBtn.UseVisualStyleBackColor = true;
@@ -47,14 +47,15 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(12, 12);
+            this.textBox1.Location = new System.Drawing.Point(12, 84);
+            this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(197, 20);
+            this.textBox1.Size = new System.Drawing.Size(260, 220);
             this.textBox1.TabIndex = 1;
             // 
             // setTextSafeBtn
             // 
-            this.setTextSafeBtn.Location = new System.Drawing.Point(104, 48);
+            this.setTextSafeBtn.Location = new System.Drawing.Point(105, 12);
             this.setTextSafeBtn.Name = "setTextSafeBtn";
             this.setTextSafeBtn.Size = new System.Drawing.Size(93, 23);
             this.setTextSafeBtn.TabIndex = 2;
@@ -64,13 +65,14 @@
             // 
             // backgroundWorker1
             // 
+            this.backgroundWorker1.DoWork += new System.ComponentModel.DoWorkEventHandler(this.backgroundWorker1_DoWork);
             this.backgroundWorker1.RunWorkerCompleted += new System.ComponentModel.RunWorkerCompletedEventHandler(this.backgroundWorker1_RunWorkerCompleted);
             // 
             // setTextBackgroundWorkerBtn
             // 
-            this.setTextBackgroundWorkerBtn.Location = new System.Drawing.Point(12, 87);
+            this.setTextBackgroundWorkerBtn.Location = new System.Drawing.Point(12, 41);
             this.setTextBackgroundWorkerBtn.Name = "setTextBackgroundWorkerBtn";
-            this.setTextBackgroundWorkerBtn.Size = new System.Drawing.Size(120, 23);
+            this.setTextBackgroundWorkerBtn.Size = new System.Drawing.Size(186, 23);
             this.setTextBackgroundWorkerBtn.TabIndex = 3;
             this.setTextBackgroundWorkerBtn.Text = "setTextBackgroundWorkerBtn";
             this.setTextBackgroundWorkerBtn.UseVisualStyleBackColor = true;
@@ -80,7 +82,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 262);
+            this.ClientSize = new System.Drawing.Size(284, 316);
             this.Controls.Add(this.setTextBackgroundWorkerBtn);
             this.Controls.Add(this.setTextSafeBtn);
             this.Controls.Add(this.textBox1);

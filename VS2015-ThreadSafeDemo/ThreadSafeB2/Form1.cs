@@ -31,16 +31,18 @@ namespace ThreadSafe
             // unsafe ways to call a Windows Forms control.
             private Thread demoThread = null;
 
-            // This BackgroundWorker is used to demonstrate the 
-            // preferred way of performing asynchronous operations.
-            //private BackgroundWorker backgroundWorker1;  //Draged in to form B2
+        // This BackgroundWorker is used to demonstrate the 
+        // preferred way of performing asynchronous operations.
+        //private BackgroundWorker backgroundWorker1;  //Draged in to form B2
 
-            //private TextBox textBox1;
-            //private Button setTextUnsafeBtn;
-            //private Button setTextSafeBtn;
-            //private Button setTextBackgroundWorkerBtn;
+        //private TextBox textBox1;
+        //private Button setTextUnsafeBtn;
+        //private Button setTextSafeBtn;
+        //private Button setTextBackgroundWorkerBtn;
 
-            //private System.ComponentModel.IContainer components = null;
+        //private System.ComponentModel.IContainer components = null;
+
+        private string rText;
 
             public Form1()
             {
@@ -146,17 +148,23 @@ namespace ThreadSafe
                 object sender,
                 RunWorkerCompletedEventArgs e)
             {
-                this.textBox1.Text = "This text was set safely by BackgroundWorker.";
+            this.textBox1.AppendText(rText);
+            rText = "";
+            this.textBox1.AppendText( "#SafelyByBackgroundWorkerCompleted."+ Environment.NewLine);
+
             }
 
         private void backgroundWorker1_DoWork(object sender, DoWorkEventArgs e)
         {
-
+            for (int i = 1; i <= 5; i++)
+            {
+               rText += ("#BackgroundWorker_DoWork. ") +i.ToString()+ Environment.NewLine ;
+                Console.Beep(698, 100);
+            }
+ ;
+            
         }
 
-        private void backgroundWorker2_DoWork(object sender, DoWorkEventArgs e)
-        {
 
-        }
     }
 }
