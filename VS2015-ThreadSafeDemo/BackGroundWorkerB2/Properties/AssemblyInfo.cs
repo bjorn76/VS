@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("ThreadSafe")]
+[assembly: AssemblyTitle("bgwB2")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("JMAB")]
-[assembly: AssemblyProduct("ThreadSafe")]
+[assembly: AssemblyProduct("bgwB2")]
 [assembly: AssemblyCopyright("Copyright © JMAB 2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

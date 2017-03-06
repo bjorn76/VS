@@ -1,4 +1,4 @@
-﻿namespace ThreadSafe
+﻿namespace bgwB2
 {
     partial class Form1
     {

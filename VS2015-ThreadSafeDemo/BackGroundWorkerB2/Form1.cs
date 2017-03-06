@@ -10,7 +10,7 @@ using System.Windows.Forms;
 using System.Threading;
 
 
-namespace ThreadSafe
+namespace bgwB2
 {
     public partial class Form1 : Form
     {
