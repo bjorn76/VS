@@ -1,0 +1,7 @@
+C:\Users\johanb01\GitHub\bjorn76\VS\VS2017-WinVersion-Console\C#\CSDetermineWindowsVersion\bin\Debug\app.manifest
+C:\Users\johanb01\GitHub\bjorn76\VS\VS2017-WinVersion-Console\C#\CSDetermineWindowsVersion\bin\Debug\CSDetermineWindowsVersion.exe.config
+C:\Users\johanb01\GitHub\bjorn76\VS\VS2017-WinVersion-Console\C#\CSDetermineWindowsVersion\bin\Debug\CSDetermineWindowsVersion.exe
+C:\Users\johanb01\GitHub\bjorn76\VS\VS2017-WinVersion-Console\C#\CSDetermineWindowsVersion\bin\Debug\CSDetermineWindowsVersion.pdb
+C:\Users\johanb01\GitHub\bjorn76\VS\VS2017-WinVersion-Console\C#\CSDetermineWindowsVersion\obj\Debug\CSDetermineWindowsVersion.csprojResolveAssemblyReference.cache
+C:\Users\johanb01\GitHub\bjorn76\VS\VS2017-WinVersion-Console\C#\CSDetermineWindowsVersion\obj\Debug\CSDetermineWindowsVersion.exe
+C:\Users\johanb01\GitHub\bjorn76\VS\VS2017-WinVersion-Console\C#\CSDetermineWindowsVersion\obj\Debug\CSDetermineWindowsVersion.pdb
