@@ -9,6 +9,7 @@ namespace CSDetermineWindowsVersion
             ///Notice that if you do not config the manifest file, you can't get the win10 version info
             var osInfo = OSVersionInfo.GetOSVersionInfo();
             Console.WriteLine(osInfo.FullName);
+            //Console.WriteLine("Modified by BNJ");
 
             Console.ReadKey();
         }
@@ -165,7 +166,35 @@ namespace CSDetermineWindowsVersion
                     }
                     break;
                 case 10:
-                    osVersion = "Windows 10";
+                   
+                    switch (osInfo.Version.Build)
+                    {
+                        // https://en.wikipedia.org/wiki/Windows_10_version_history
+
+                        // 1607 is build 14393
+                        // 1703 is build 15063
+                        // 1709 is build 16299
+                        // 1803 is build 17134
+                        // 1809 is build 17763
+
+
+                        case 16299:
+                            osVersion = "Win 10 1709";
+                            break;
+
+                        case 17134 :
+                          osVersion = "Win 10 1803";
+                          break;
+
+                        case 17763:
+                            osVersion = "Win 10 1809";
+                            break;
+
+
+                        default: 
+                           osVersion = "Windows 10";
+                           break;
+                    }
                     break;
             }
 
