@@ -48,9 +48,11 @@ namespace bgwB2
             for (int i= 0; i <= 4; i++)
             {
                 rText +=  i.ToString() + Environment.NewLine;
+                Thread.Sleep(10);
                 bgw1.ReportProgress((i+1)*25);
+                Thread.Sleep(10);
             }
-            rText += "bgw1_dowork" + Environment.NewLine; ;
+            rText += "bgw1_dowork end" + Environment.NewLine; ;
 
 
         }
@@ -66,9 +68,10 @@ namespace bgwB2
 
         private void bgw1_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
             {
+            //this is running in main thread
             this.textBox1.AppendText(rText);
             rText = "";
-            this.textBox1.AppendText( "#SafelyByBackgroundWorkerCompleted."+ Environment.NewLine);
+            this.textBox1.AppendText("bgw1_RunWorkerCompleted" + Environment.NewLine);
             
         }
 

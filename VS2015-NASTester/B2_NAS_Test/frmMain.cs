@@ -61,12 +61,20 @@ namespace WindowsFormsApplication1
 
         private void btnMeasure_Click(object sender, EventArgs e)
         {
-            this.backgroundWorker1.RunWorkerAsync();
+            //this.backgroundWorker1.RunWorkerAsync();
+            testPath = "p:";
+
+            //testFileSize = 0; // for warmup run
+            testFileSize = 2000000;
+                testIterations = 5;
+                testType = "write";
+                this.backgroundWorker2.RunWorkerAsync();
 
         }
         // like Benchmarkhandler
         private void backgroundWorker1_DoWork(object sender, DoWorkEventArgs e)
         {
+            //This is run in separat thread
             testIsActive = true;
             loopBreak = false;
 
@@ -76,7 +84,7 @@ namespace WindowsFormsApplication1
             if (!loopBreak)
             { // Run warmup
                 testFileSize = 0; // for warmup run
-                testIterations = 1;
+                testIterations = 4;
                 testType = "write";
                 this.backgroundWorker2.RunWorkerAsync();
             }
@@ -159,7 +167,9 @@ namespace WindowsFormsApplication1
                     //resultArea.AppendText(
                     //  "Running a " + testFileSize / 1000000 + "MB file " + testType +
                     //  " on " + testPath + " " + iterText + "...\r\n");
-                    resultText += "Running a test file..." + Environment.NewLine;
+                    resultText += "Running a test file..." + testFileSize / 1000000 + "MB file " 
+                        + testType + " on " + testPath + " " + iterText +"..."
+                        + Environment.NewLine;
                     Console.Beep(698, 100);
                     appendIterations = testFileSize / 100000;
                     // Note: dividing integers in C# always produce a whole number,
@@ -206,8 +216,12 @@ namespace WindowsFormsApplication1
                         //  ((testFileSize / 1000) / interval.TotalMilliseconds).ToString("F2").PadLeft(7) +
                         //  " MB/sec\r\n");
                         //resultArea.Invalidate();
-                        resultText += "Iteration" + j.ToString();
-                        Console.Beep(698, 100);
+                        resultText += ("Iteration" + j.ToString()+ ":").PadRight(15)+
+                            ((testFileSize / 1000) / interval.TotalMilliseconds).ToString("F2").PadLeft(7)+
+                            " MB/sec" + Environment.NewLine;
+
+
+                Console.Beep(698, 100);
                     }
                     totalPerf += (testFileSize / 1000) / interval.TotalMilliseconds;
                 }
@@ -218,7 +232,15 @@ namespace WindowsFormsApplication1
                     //  (totalPerf / testIterations).ToString("F2").PadLeft(10) + " MB/sec\r\n");
                     //resultArea.AppendText("-----------------------------\r\n");
                     //resultArea.Invalidate();
+                    resultText += ("-----------------------------") + Environment.NewLine;
+                    resultText += "Average (" + shortType + "):"+
+                        (totalPerf / testIterations).ToString("F2").PadLeft(10) + " MB/sec" +
+                        Environment.NewLine;
+                    resultText += ("-----------------------------") + Environment.NewLine;
                     resultText += (totalPerf / testIterations).ToString();
+                    resultText += ("-----------------------------") + Environment.NewLine;
+
+
                     Console.Beep(698, 100);
                 }
             }

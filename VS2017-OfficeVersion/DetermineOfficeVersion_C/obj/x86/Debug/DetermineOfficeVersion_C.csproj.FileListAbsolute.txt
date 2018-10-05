@@ -1,0 +1,10 @@
+C:\Users\johanb01\GitHub\bjorn76\VS\VS2017-OfficeVersion\DetermineOfficeVersion_C\bin\Debug\DetermineOfficeVersion_C.exe.config
+C:\Users\johanb01\GitHub\bjorn76\VS\VS2017-OfficeVersion\DetermineOfficeVersion_C\bin\Debug\DetermineOfficeVersion_C.exe
+C:\Users\johanb01\GitHub\bjorn76\VS\VS2017-OfficeVersion\DetermineOfficeVersion_C\bin\Debug\DetermineOfficeVersion_C.pdb
+C:\Users\johanb01\GitHub\bjorn76\VS\VS2017-OfficeVersion\DetermineOfficeVersion_C\obj\x86\Debug\DetermineOfficeVersion_C.csprojResolveAssemblyReference.cache
+C:\Users\johanb01\GitHub\bjorn76\VS\VS2017-OfficeVersion\DetermineOfficeVersion_C\obj\x86\Debug\DetermineOfficeVersion_C.csproj.ResolveComReference.cache
+C:\Users\johanb01\GitHub\bjorn76\VS\VS2017-OfficeVersion\DetermineOfficeVersion_C\obj\x86\Debug\DetermineOfficeVersion_C.Form1.resources
+C:\Users\johanb01\GitHub\bjorn76\VS\VS2017-OfficeVersion\DetermineOfficeVersion_C\obj\x86\Debug\DetermineOfficeVersion_C.Properties.Resources.resources
+C:\Users\johanb01\GitHub\bjorn76\VS\VS2017-OfficeVersion\DetermineOfficeVersion_C\obj\x86\Debug\DetermineOfficeVersion_C.csproj.GenerateResource.Cache
+C:\Users\johanb01\GitHub\bjorn76\VS\VS2017-OfficeVersion\DetermineOfficeVersion_C\obj\x86\Debug\DetermineOfficeVersion_C.exe
+C:\Users\johanb01\GitHub\bjorn76\VS\VS2017-OfficeVersion\DetermineOfficeVersion_C\obj\x86\Debug\DetermineOfficeVersion_C.pdb
