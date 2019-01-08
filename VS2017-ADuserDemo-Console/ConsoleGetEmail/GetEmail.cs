@@ -13,6 +13,7 @@ namespace Console_GetEmail
 
 
 
+        [STAThread]
         static void Main(string[] args)
         {
             string usr;
@@ -35,11 +36,18 @@ namespace Console_GetEmail
             ADemail = GetUserEmail(usr);
 
 
-            if (ADemail.Length > 3)
+            if (ADemail.Length > 3) { 
                 Console.WriteLine("Email found in AD: {0}", ADemail);
-            else
+                System.Windows.Clipboard.SetText(ADemail);
+                Console.WriteLine("(Email is found in clipboard)");
+                
+            }
+            else { 
                 //Console.WriteLine("An email was not found in AD ({0})", usr);
                 Console.WriteLine("An email was not found in AD");
+            }
+
+
 
 
 
