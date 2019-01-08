@@ -1,0 +1,18 @@
+C:\Users\johanb01\Documents\Visual Studio 2017\Projects\VS2017-ADuserDemo-Console\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\Users\johanb01\Documents\Visual Studio 2017\Projects\VS2017-ADuserDemo-Console\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\Users\johanb01\Documents\Visual Studio 2017\Projects\VS2017-ADuserDemo-Console\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\Users\johanb01\Documents\Visual Studio 2017\Projects\VS2017-ADuserDemo-Console\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Users\johanb01\Documents\Visual Studio 2017\Projects\VS2017-ADuserDemo-Console\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
+C:\Users\johanb01\Documents\Visual Studio 2017\Projects\VS2017-ADuserDemo-Console\ConsoleApp1\obj\Debug\GetEmail.csprojResolveAssemblyReference.cache
+C:\Users\johanb01\Documents\Visual Studio 2017\Projects\VS2017-ADuserDemo-Console\ConsoleGetEmail\bin\Debug\GetEmail.exe.config
+C:\Users\johanb01\Documents\Visual Studio 2017\Projects\VS2017-ADuserDemo-Console\ConsoleGetEmail\bin\Debug\GetEmail.exe
+C:\Users\johanb01\Documents\Visual Studio 2017\Projects\VS2017-ADuserDemo-Console\ConsoleGetEmail\bin\Debug\GetEmail.pdb
+C:\Users\johanb01\Documents\Visual Studio 2017\Projects\VS2017-ADuserDemo-Console\ConsoleGetEmail\obj\Debug\GetEmail.csprojResolveAssemblyReference.cache
+C:\Users\johanb01\Documents\Visual Studio 2017\Projects\VS2017-ADuserDemo-Console\ConsoleGetEmail\obj\Debug\GetEmail.exe
+C:\Users\johanb01\Documents\Visual Studio 2017\Projects\VS2017-ADuserDemo-Console\ConsoleGetEmail\obj\Debug\GetEmail.pdb
+C:\Users\johanb01\GitHub\bjorn76\VS\VS2017-ADuserDemo-Console\ConsoleGetEmail\bin\Debug\GetEmail.exe.config
+C:\Users\johanb01\GitHub\bjorn76\VS\VS2017-ADuserDemo-Console\ConsoleGetEmail\bin\Debug\GetEmail.exe
+C:\Users\johanb01\GitHub\bjorn76\VS\VS2017-ADuserDemo-Console\ConsoleGetEmail\bin\Debug\GetEmail.pdb
+C:\Users\johanb01\GitHub\bjorn76\VS\VS2017-ADuserDemo-Console\ConsoleGetEmail\obj\Debug\GetEmail.csprojResolveAssemblyReference.cache
+C:\Users\johanb01\GitHub\bjorn76\VS\VS2017-ADuserDemo-Console\ConsoleGetEmail\obj\Debug\GetEmail.exe
+C:\Users\johanb01\GitHub\bjorn76\VS\VS2017-ADuserDemo-Console\ConsoleGetEmail\obj\Debug\GetEmail.pdb

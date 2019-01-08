@@ -1,0 +1,6 @@
+C:\Users\johanb01\Documents\Visual Studio 2017\Projects\VS2017-ADuserDemo-Console\ADuser\obj\Debug\ADuser.csprojResolveAssemblyReference.cache
+C:\Users\johanb01\Documents\Visual Studio 2017\Projects\VS2017-ADuserDemo-Console\ADuser\bin\Debug\ADuser.exe.config
+C:\Users\johanb01\Documents\Visual Studio 2017\Projects\VS2017-ADuserDemo-Console\ADuser\bin\Debug\ADuser.exe
+C:\Users\johanb01\Documents\Visual Studio 2017\Projects\VS2017-ADuserDemo-Console\ADuser\bin\Debug\ADuser.pdb
+C:\Users\johanb01\Documents\Visual Studio 2017\Projects\VS2017-ADuserDemo-Console\ADuser\obj\Debug\ADuser.exe
+C:\Users\johanb01\Documents\Visual Studio 2017\Projects\VS2017-ADuserDemo-Console\ADuser\obj\Debug\ADuser.pdb
