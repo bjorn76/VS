@@ -7,6 +7,9 @@
         <p>
             <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Button" />
         </p>
+        <p>
+            &nbsp;</p>
+        <asp:TextBox ID="TextBox1" runat="server" Height="238px" TextMode="MultiLine" Width="1109px" Wrap="False"></asp:TextBox>
     </div>
 
     <div class="row">

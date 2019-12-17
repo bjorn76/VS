@@ -19,6 +19,9 @@ namespace WebApplication1
             if (User.Identity.IsAuthenticated)
             {
                 Page.Title = "Home page for " + User.Identity.Name;
+                TextBox1.Text += User.Identity.Name + "\r\n";
+
+
             }
             else
             {
