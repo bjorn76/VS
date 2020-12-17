@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibraryExcel01", "ClassLibraryExcel01\ClassLibraryExcel01.csproj", "{70E3B5BE-80FB-402B-912D-31F19DF3C845}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{70E3B5BE-80FB-402B-912D-31F19DF3C845}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70E3B5BE-80FB-402B-912D-31F19DF3C845}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70E3B5BE-80FB-402B-912D-31F19DF3C845}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70E3B5BE-80FB-402B-912D-31F19DF3C845}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5DC4295D-B129-446A-82B0-45F9D5647E5F}
+	EndGlobalSection
+EndGlobal
