@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace ClassLibraryExcel01
+namespace B2_Excel_LDAP
 {
     public class RibbonActions
     {
