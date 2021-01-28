@@ -5,14 +5,14 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("ClassLibraryExcel01")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("B2_Excel_LDAP")]
+[assembly: AssemblyDescription("Look up user properties by LDAP")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("B2 Excel Utils")]
 [assembly: AssemblyProduct("ClassLibraryExcel01")]
 [assembly: AssemblyCopyright("Copyright ©  2020")]
-[assembly: AssemblyTrademark("")]
-[assembly: AssemblyCulture("")]
+[assembly: AssemblyTrademark("B2")]
+[assembly: AssemblyCulture("En")]
 
 // Setting ComVisible to false makes the types in this assembly not visible
 // to COM components.  If you need to access a type in this assembly from
