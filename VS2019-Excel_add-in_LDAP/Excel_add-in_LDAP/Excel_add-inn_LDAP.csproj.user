@@ -3,11 +3,11 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
     <StartAction>Program</StartAction>
     <StartProgram>C:\Program Files %28x86%29\Microsoft Office\root\Office16\EXCEL.EXE</StartProgram>
-    <StartArguments>"ClassLibraryExcel01-AddIn.xll"</StartArguments>
+    <StartArguments>"B2_Excel_LDAP.xll"</StartArguments>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
     <StartAction>Program</StartAction>
     <StartProgram>C:\Program Files %28x86%29\Microsoft Office\root\Office16\EXCEL.EXE</StartProgram>
-    <StartArguments>"ClassLibraryExcel01-AddIn.xll"</StartArguments>
+    <StartArguments>"B2_Excel_LDAP.xll"</StartArguments>
   </PropertyGroup>
 </Project>
