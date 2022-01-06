@@ -1,0 +1,7 @@
+C:\Users\johanb01\GitHub\bjorn76\VS\VS2019-ClassLibExcel01\ClassLibraryExcel01\ClassLibraryExcel01\bin\Debug\ClassLibraryExcel01.dll
+C:\Users\johanb01\GitHub\bjorn76\VS\VS2019-ClassLibExcel01\ClassLibraryExcel01\ClassLibraryExcel01\bin\Debug\ClassLibraryExcel01.pdb
+C:\Users\johanb01\GitHub\bjorn76\VS\VS2019-ClassLibExcel01\ClassLibraryExcel01\ClassLibraryExcel01\bin\Debug\ExcelDna.IntelliSense.dll
+C:\Users\johanb01\GitHub\bjorn76\VS\VS2019-ClassLibExcel01\ClassLibraryExcel01\ClassLibraryExcel01\obj\Debug\ClassLibraryExcel01.csprojAssemblyReference.cache
+C:\Users\johanb01\GitHub\bjorn76\VS\VS2019-ClassLibExcel01\ClassLibraryExcel01\ClassLibraryExcel01\obj\Debug\ClassLibraryExcel01.csproj.CopyComplete
+C:\Users\johanb01\GitHub\bjorn76\VS\VS2019-ClassLibExcel01\ClassLibraryExcel01\ClassLibraryExcel01\obj\Debug\ClassLibraryExcel01.dll
+C:\Users\johanb01\GitHub\bjorn76\VS\VS2019-ClassLibExcel01\ClassLibraryExcel01\ClassLibraryExcel01\obj\Debug\ClassLibraryExcel01.pdb

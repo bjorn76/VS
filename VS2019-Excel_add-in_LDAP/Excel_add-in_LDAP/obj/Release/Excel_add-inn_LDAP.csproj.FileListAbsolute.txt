@@ -1,0 +1,7 @@
+C:\Users\johanb01\GitHub\bjorn76\VS\VS2019-Excel_add-in_LDAP\Excel_add-in_LDAP\bin\Release\ClassLibraryExcel01.dll
+C:\Users\johanb01\GitHub\bjorn76\VS\VS2019-Excel_add-in_LDAP\Excel_add-in_LDAP\bin\Release\ClassLibraryExcel01.pdb
+C:\Users\johanb01\GitHub\bjorn76\VS\VS2019-Excel_add-in_LDAP\Excel_add-in_LDAP\bin\Release\ExcelDna.IntelliSense.dll
+C:\Users\johanb01\GitHub\bjorn76\VS\VS2019-Excel_add-in_LDAP\Excel_add-in_LDAP\obj\Release\Excel_add-inn_LDAP.csprojAssemblyReference.cache
+C:\Users\johanb01\GitHub\bjorn76\VS\VS2019-Excel_add-in_LDAP\Excel_add-in_LDAP\obj\Release\Excel_add-inn_LDAP.csproj.CopyComplete
+C:\Users\johanb01\GitHub\bjorn76\VS\VS2019-Excel_add-in_LDAP\Excel_add-in_LDAP\obj\Release\ClassLibraryExcel01.dll
+C:\Users\johanb01\GitHub\bjorn76\VS\VS2019-Excel_add-in_LDAP\Excel_add-in_LDAP\obj\Release\ClassLibraryExcel01.pdb
