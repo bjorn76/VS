@@ -33,8 +33,6 @@ namespace NASPerformanceTester
         /// </summary>
         private void InitializeComponent()
         {
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.button1 = new System.Windows.Forms.Button();
             this.driveLetterLabel = new System.Windows.Forms.Label();
             this.networkPathLabel = new System.Windows.Forms.Label();
             this.fileSizeLabel = new System.Windows.Forms.Label();
@@ -47,26 +45,7 @@ namespace NASPerformanceTester
             this.resultArea = new System.Windows.Forms.TextBox();
             this.infoLabel = new System.Windows.Forms.Label();
             this.urlLabel = new System.Windows.Forms.LinkLabel();
-            this.driveLetterLabel_2 = new System.Windows.Forms.Label();
-            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.SuspendLayout();
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(102, 179);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 24);
-            this.comboBox1.TabIndex = 0;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(127, 287);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
             // 
             // driveLetterLabel
             // 
@@ -78,7 +57,7 @@ namespace NASPerformanceTester
             // 
             // networkPathLabel
             // 
-            this.networkPathLabel.Location = new System.Drawing.Point(0, 0);
+            this.networkPathLabel.Location = new System.Drawing.Point(404, 86);
             this.networkPathLabel.Name = "networkPathLabel";
             this.networkPathLabel.Size = new System.Drawing.Size(100, 23);
             this.networkPathLabel.TabIndex = 0;
@@ -99,17 +78,20 @@ namespace NASPerformanceTester
             // 
             // benchmarkButton
             // 
-            this.benchmarkButton.Location = new System.Drawing.Point(0, 0);
+            this.benchmarkButton.Location = new System.Drawing.Point(424, 386);
             this.benchmarkButton.Name = "benchmarkButton";
-            this.benchmarkButton.Size = new System.Drawing.Size(75, 23);
+            this.benchmarkButton.Size = new System.Drawing.Size(142, 43);
             this.benchmarkButton.TabIndex = 0;
+            this.benchmarkButton.Text = "benchmarkButton";
+            this.benchmarkButton.Click += new EventHandler(benchmarkButton_Click);
             // 
             // networkPath
             // 
-            this.networkPath.Location = new System.Drawing.Point(0, 0);
+            this.networkPath.Location = new System.Drawing.Point(252, 24);
             this.networkPath.Name = "networkPath";
             this.networkPath.Size = new System.Drawing.Size(100, 22);
             this.networkPath.TabIndex = 0;
+            this.networkPath.Text = "C:\\temp";
             // 
             // driveLetter
             // 
@@ -120,24 +102,48 @@ namespace NASPerformanceTester
             // 
             // fileSize
             // 
-            this.fileSize.Location = new System.Drawing.Point(0, 0);
+            this.fileSize.Items.AddRange(new object[] {
+            "100",
+            "200",
+            "400",
+            "800",
+            "1000",
+            "2000",
+            "4000",
+            "8000"});
+            this.fileSize.Location = new System.Drawing.Point(407, 22);
             this.fileSize.Name = "fileSize";
-            this.fileSize.Size = new System.Drawing.Size(121, 25);
+            this.fileSize.Size = new System.Drawing.Size(121, 24);
             this.fileSize.TabIndex = 0;
             // 
             // loops
             // 
-            this.loops.Location = new System.Drawing.Point(0, 0);
+            this.loops.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "10",
+            "20",
+            "40"});
+            this.loops.Location = new System.Drawing.Point(576, 22);
             this.loops.Name = "loops";
-            this.loops.Size = new System.Drawing.Size(121, 25);
+            this.loops.Size = new System.Drawing.Size(80, 24);
             this.loops.TabIndex = 0;
             // 
             // resultArea
             // 
-            this.resultArea.Location = new System.Drawing.Point(0, 0);
+            this.resultArea.Font = new System.Drawing.Font("Courier New", 8F);
+            this.resultArea.Location = new System.Drawing.Point(33, 70);
+            this.resultArea.Multiline = true;
             this.resultArea.Name = "resultArea";
-            this.resultArea.Size = new System.Drawing.Size(100, 22);
+            this.resultArea.ReadOnly = true;
+            this.resultArea.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.resultArea.Size = new System.Drawing.Size(533, 305);
             this.resultArea.TabIndex = 0;
+            this.resultArea.Text = "NAS performance tester 1.7 http://www.808.dk/?nastester\r\n";
+            this.resultArea.WordWrap = false;
             // 
             // infoLabel
             // 
@@ -149,37 +155,27 @@ namespace NASPerformanceTester
             // urlLabel
             // 
             this.urlLabel.AutoSize = true;
-            this.urlLabel.Location = new System.Drawing.Point(0, 0);
+            this.urlLabel.LinkArea = new System.Windows.Forms.LinkArea(0, 46);
+            this.urlLabel.Location = new System.Drawing.Point(39, 399);
             this.urlLabel.Name = "urlLabel";
-            this.urlLabel.Size = new System.Drawing.Size(100, 23);
-            this.urlLabel.TabIndex = 0;
-            // 
-            // driveLetterLabel_2
-            // 
-            this.driveLetterLabel_2.AutoSize = true;
-            this.driveLetterLabel_2.Location = new System.Drawing.Point(614, 307);
-            this.driveLetterLabel_2.Name = "driveLetterLabel_2";
-            this.driveLetterLabel_2.Size = new System.Drawing.Size(127, 17);
-            this.driveLetterLabel_2.TabIndex = 2;
-            this.driveLetterLabel_2.Text = "driveLetterLabel_2";
-            // 
-            // linkLabel1
-            // 
-            this.linkLabel1.AutoSize = true;
-            this.linkLabel1.Location = new System.Drawing.Point(573, 420);
-            this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(72, 17);
-            this.linkLabel1.TabIndex = 3;
-            this.linkLabel1.TabStop = true;
-            this.linkLabel1.Text = "linkLabel1";
+            this.urlLabel.Size = new System.Drawing.Size(322, 17);
+            this.urlLabel.TabIndex = 1;
+            this.urlLabel.TabStop = true;
+            this.urlLabel.Text = "http://www.808.dk/?code-csharp-nas-performance";
             // 
             // MainForm
             // 
             this.ClientSize = new System.Drawing.Size(1107, 540);
-            this.Controls.Add(this.linkLabel1);
-            this.Controls.Add(this.driveLetterLabel_2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.benchmarkButton);
+            this.Controls.Add(this.networkPath);
+            this.Controls.Add(this.networkPathLabel);
+            this.Controls.Add(this.fileSize);
+            this.Controls.Add(this.fileSizeLabel);
+            this.Controls.Add(this.loops);
+            this.Controls.Add(this.loopsLabel);
+            this.Controls.Add(this.resultArea);
+            this.Controls.Add(this.infoLabel);
+            this.Controls.Add(this.urlLabel);
             this.Name = "MainForm";
             this.Text = "NAS performance tester 1.7 B2 Froms design";
             this.ResumeLayout(false);
@@ -189,9 +185,6 @@ namespace NASPerformanceTester
         
 
         #endregion
-
-        private ComboBox comboBox1;
-        private Button button1;
         private Label driveLetterLabel;
         private Label networkPathLabel;
         private Label fileSizeLabel;
@@ -204,8 +197,6 @@ namespace NASPerformanceTester
         private TextBox resultArea;
         private Label infoLabel;
         private LinkLabel urlLabel;
-        private Label driveLetterLabel_2;
-        private LinkLabel linkLabel1;
     }
 
     /*
