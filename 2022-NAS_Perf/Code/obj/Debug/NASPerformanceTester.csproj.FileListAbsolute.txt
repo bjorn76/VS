@@ -1,0 +1,11 @@
+C:\Users\bjorn\Documents\bjorn76\VS\2022-NAS_Perf\Code\bin\Debug\NASPerformanceTester.exe.config
+C:\Users\bjorn\Documents\bjorn76\VS\2022-NAS_Perf\Code\bin\Debug\NASPerformanceTester.exe
+C:\Users\bjorn\Documents\bjorn76\VS\2022-NAS_Perf\Code\bin\Debug\NASPerformanceTester.pdb
+C:\Users\bjorn\Documents\bjorn76\VS\2022-NAS_Perf\Code\obj\Debug\NASPerformanceTester.csprojAssemblyReference.cache
+C:\Users\bjorn\Documents\bjorn76\VS\2022-NAS_Perf\Code\obj\Debug\NASPerformanceTester.Properties.Resources.resources
+C:\Users\bjorn\Documents\bjorn76\VS\2022-NAS_Perf\Code\obj\Debug\NASPerformanceTester.csproj.GenerateResource.cache
+C:\Users\bjorn\Documents\bjorn76\VS\2022-NAS_Perf\Code\obj\Debug\NASPerformanceTester.csproj.CoreCompileInputs.cache
+C:\Users\bjorn\Documents\bjorn76\VS\2022-NAS_Perf\Code\obj\Debug\NASPerformanceTester.exe
+C:\Users\bjorn\Documents\bjorn76\VS\2022-NAS_Perf\Code\obj\Debug\NASPerformanceTester.pdb
+C:\Users\bjorn\Documents\bjorn76\VS\2022-NAS_Perf\Code\obj\Debug\NASPerformanceTester.Form1.resources
+C:\Users\bjorn\Documents\bjorn76\VS\2022-NAS_Perf\Code\obj\Debug\NASPerformanceTester.MainForm.resources
