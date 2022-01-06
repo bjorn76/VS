@@ -68,6 +68,7 @@ namespace NASPerformanceTester
             this.fileSizeLabel.Name = "fileSizeLabel";
             this.fileSizeLabel.Size = new System.Drawing.Size(100, 23);
             this.fileSizeLabel.TabIndex = 0;
+            
             // 
             // loopsLabel
             // 
@@ -115,6 +116,7 @@ namespace NASPerformanceTester
             this.fileSize.Name = "fileSize";
             this.fileSize.Size = new System.Drawing.Size(121, 24);
             this.fileSize.TabIndex = 0;
+            this.fileSize.SelectedIndex = 2;
             // 
             // loops
             // 
@@ -131,6 +133,7 @@ namespace NASPerformanceTester
             this.loops.Name = "loops";
             this.loops.Size = new System.Drawing.Size(80, 24);
             this.loops.TabIndex = 0;
+            this.loops.SelectedIndex = 2;
             // 
             // resultArea
             // 
