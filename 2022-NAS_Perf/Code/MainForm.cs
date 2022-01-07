@@ -1,4 +1,53 @@
-﻿using System;
+﻿/*
+ * BACKGROUND
+  * The source code of a NAS performance tester is published here:
+ * http://www.808.dk/?code-csharp-nas-performance
+ * which is a personal web site by Ulrik D. Hansen 
+ * It's publishe under: Some rights reserved (CC by 3.0) 
+ * https://creativecommons.org/licenses/by/3.0/
+ * 
+ * This project adopted the concept for VS2017 and Dot Net 4.5.2 or later
+ * similar to how https://github.com/AndMu/NASPerformanceTester did it
+ * the code now uses the await and async statements which is explained here:
+ * https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/async/
+ * 
+ * 
+ * 
+ * CODE CONVENTIONS
+ * pascal casing:             FirstName       (aka "UpperCamelCase")
+ * camel casing":             firstName       (aka lowerCamelCase)
+ * _-prefix:                 _firstName
+ * 
+ * 
+ * When naming classes and public members 
+ * (of types, such as fields, properties, events, methods, and local functions)
+ * use PascalCasing             e.g. public void StartEventProcessing()
+ * 
+ * When naming private methods, parameters and local variables 
+ * use lowerCamelCasing         e.g private string[] getNetworkDriveLetters()
+ * 
+ * 
+ * When naming private members, except methods, 
+ * prefix with _                e.g. private bool _loopBreak;
+ * 
+ * More about code conventions are found here: 
+ * https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions
+ * https://en.wikipedia.org/wiki/Naming_convention_(programming)#C#
+ 
+ * CONTROLS NAMING CONVENTIONS e.g. in MainForm.Designer.cs
+ * TextBox nameText;            // the control used to edit the name
+ * Label nameLabel;             // the control used to label the edit control
+ * Button setDefaultButton;     // the control that resets the name to a default value.
+ * ComboBox driveLetterCombo;   // a ComboBox populated with drive letters at start up
+ * 
+ * 
+ * 
+ * 
+*/
+
+
+
+using System;
 using System.Collections;
 using System.Diagnostics;
 using System.IO;
@@ -12,20 +61,12 @@ namespace NASPerformanceTester
     public partial class MainForm : Form
     {
         private string localStoragePath;
-
-        private bool loopBreak;
-
-        private ulong testFileSize;
-
-        private bool testIsActive;
-
-        private ulong testIterations;
-
-        private string testPath;
-
-        private string testType;
-
-        //private Thread workerThread; // not used?
+        private bool _loopBreak;
+        private ulong _testFileSize;
+        private bool _testIsActive;
+        private ulong _testIterations;
+        private string _testPath;
+        private string _testType;
 
         public MainForm()
         {
@@ -34,10 +75,12 @@ namespace NASPerformanceTester
 
         protected override void OnLoad(EventArgs e)
         {
-            driveLetter.Items.AddRange(GetNetworkDriveLetters());
-            if (GetNetworkDriveLetters().Length > 0)
+            OutputText("\r\n");
+            SetDefaults();
+            driveLetterCombo.Items.AddRange(getNetworkDriveLetters());
+            if (getNetworkDriveLetters().Length > 0)
             {
-                driveLetter.SelectedIndex = 0;
+                driveLetterCombo.SelectedIndex = 0;
             }
 
             ActiveControl = networkPath;
@@ -53,71 +96,93 @@ namespace NASPerformanceTester
             base.OnLoad(e);
         }
 
-        private async void BenchmarkHandler()
+        public void SetDefaults()
         {
-            testIsActive = true;
-            loopBreak = false;
-            benchmarkButton.Text = "Stop";
-            await Task.Run(() => BenchmarkAsync());
-            testIsActive = false;
-            loopBreak = false;
-            benchmarkButton.Text = "Start";
+            loopsCombo.SelectedIndex = 1;
+            fileSizeCombo.SelectedIndex = 2;
+            networkPath.Text = "C:\\temp";
+
         }
 
-        private void BenchmarkAsync()
+
+
+
+
+        private async void benchmarkHandler()
+        
         {
+            string fileSize, loops;
+
+            _testIsActive = true;
+            _loopBreak = false;
+            benchmarkButton.Text = "Stop";
+            // if path is emty, use a drive leter
             if (string.IsNullOrEmpty(networkPath.Text))
             {
-                testPath = driveLetter.Text + ":";
+                _testPath = driveLetterCombo.Text + ":";
             }
             else
             {
-                testPath = networkPath.Text;
+                _testPath = networkPath.Text;
             }
+            //await Task.Run(() => benchmarkAsync("100","3"));
+            fileSize = fileSizeCombo.Text;
+            loops = loopsCombo.Text;
+            await Task.Run(() => benchmarkAsync(fileSize, loops));
+            _testIsActive = false;
+            _loopBreak = false;
+            benchmarkButton.Text = "Start";
+        }
 
-            if (!loopBreak)
+        private void benchmarkAsync(string testFS, string testIter )
+        {
+
+
+            if (!_loopBreak)
             {
                 // Run warmup
-                testFileSize = 0; // for warmup run
-                testIterations = 1;
-                testType = "write";
+                _testFileSize = 0; // for warmup run
+                _testIterations = 1;
+                _testType = "write";
                 TestPerf();
             }
 
             //testFileSize = Convert.ToUInt64(fileSize.Text) * 1000000; //B2 not thread safe?
-            testFileSize = Convert.ToUInt64("100") * 1000000;
+            //testFileSize = Convert.ToUInt64("100") * 1000000;
+            _testFileSize = Convert.ToUInt64(testFS) * 1000000;
 
             //testIterations = Convert.ToUInt64(loops.Text); //B2 not thread safe?
-            testIterations = Convert.ToUInt64("3");
+            //testIterations = Convert.ToUInt64("3");
+            _testIterations = Convert.ToUInt64(testIter);
 
-            if (!loopBreak)
+            if (!_loopBreak)
             {
                 // Run write test
-                testType = "write";
+                _testType = "write";
                 TestPerf();
             }
 
-            if (!loopBreak)
+            if (!_loopBreak)
             {
                 // Run read test
-                testType = "read";
+                _testType = "read";
                 TestPerf();
             }
         }
 
-        private string[] GetNetworkDriveLetters()
+        private string[] getNetworkDriveLetters()
         {
-            ArrayList NetworkDriveLetters = new ArrayList();
+            ArrayList networkDriveLetters = new ArrayList();
             DriveInfo[] allDrives = DriveInfo.GetDrives();
             foreach (DriveInfo d in allDrives)
             {
                 if (d.DriveType == DriveType.Network)
                 {
-                    NetworkDriveLetters.Add(d.Name.Substring(0, 1));
+                    networkDriveLetters.Add(d.Name.Substring(0, 1));
                 }
             }
 
-            return NetworkDriveLetters.ToArray(typeof(string)) as string[];
+            return networkDriveLetters.ToArray(typeof(string)) as string[];
         }
 
         private bool IsFolderWritable(string folderPath)
@@ -164,31 +229,31 @@ namespace NASPerformanceTester
                 DateTime startTime;
                 DateTime stopTime;
                 string randomText = RandomString(100000);
-                if (testType == "read")
+                if (_testType == "read")
                 {
-                    firstPath = testPath;
+                    firstPath = _testPath;
                     secondPath = localStoragePath;
                     shortType = "R";
                 }
                 else
                 {
                     firstPath = localStoragePath;
-                    secondPath = testPath;
+                    secondPath = _testPath;
                     shortType = "W";
                 }
-                if (testIterations == 1)
+                if (_testIterations == 1)
                 {
                     iterText = "once";
                 }
-                else if (testIterations == 2)
+                else if (_testIterations == 2)
                 {
                     iterText = "twice";
                 }
                 else
                 {
-                    iterText = testIterations + " times";
+                    iterText = _testIterations + " times";
                 }
-                if (testFileSize == 0)
+                if (_testFileSize == 0)
                 {
                     OutputText("Running warmup...\r\n");
                     appendIterations = 100; // equals a 10MB warmup file.
@@ -196,15 +261,15 @@ namespace NASPerformanceTester
                 else
                 {
                     OutputText(
-                        "Running a " + testFileSize / 1000000 + "MB file " + testType +
-                        " on " + testPath + " " + iterText + "...\r\n");
-                    appendIterations = testFileSize / 100000;
+                        "Running a " + _testFileSize / 1000000 + " MB file " + _testType +
+                        " on " + _testPath + " " + iterText + "...\r\n");
+                    appendIterations = _testFileSize / 100000;
 
                     // Note: dividing integers in C# always produce a whole number,
                     // so no explicit rounding or type conversion is needed
                 }
                 totalPerf = 0;
-                for (ulong j = 1; j <= testIterations; j++)
+                for (ulong j = 1; j <= _testIterations; j++)
                 {
                     Application.DoEvents();
                     //https://www.codeproject.com/Questions/1057766/How-to-resolve-Cross-thread-operation-not-valid-er
@@ -217,7 +282,7 @@ namespace NASPerformanceTester
                     {
                         File.Delete(secondPath + "\\" + j + "test.tmp");
                     }
-                    if (loopBreak)
+                    if (_loopBreak)
                     {
                         OutputText("Benchmark cancelled.\r\n");
                         break;
@@ -241,23 +306,23 @@ namespace NASPerformanceTester
                     File.Delete(firstPath + "\\" + j + "test.tmp");
                     File.Delete(secondPath + "\\" + j + "test.tmp");
                     TimeSpan interval = stopTime - startTime;
-                    if (testIterations > 1)
+                    if (_testIterations > 1)
                     {
                         OutputText(
                             ("Iteration " + j + ":").PadRight(15) +
-                            (testFileSize / 1000 / interval.TotalMilliseconds).ToString("F2").PadLeft(7) +
+                            (_testFileSize / 1000 / interval.TotalMilliseconds).ToString("F2").PadLeft(7) +
                             " MB/sec\r\n");
                     }
 
-                    totalPerf += testFileSize / 1000 / interval.TotalMilliseconds;
+                    totalPerf += _testFileSize / 1000 / interval.TotalMilliseconds;
                 }
 
-                if (testFileSize != 0 && loopBreak == false)
+                if (_testFileSize != 0 && _loopBreak == false)
                 {
                     OutputText("-----------------------------\r\n");
                     OutputText(
                         "Average (" + shortType + "):" +
-                        (totalPerf / testIterations).ToString("F2").PadLeft(10) + " MB/sec\r\n");
+                        (totalPerf / _testIterations).ToString("F2").PadLeft(10) + " MB/sec\r\n");
                     OutputText("-----------------------------\r\n");
                 }
             }
@@ -278,17 +343,17 @@ namespace NASPerformanceTester
 
         private void benchmarkButton_Click(object sender, EventArgs e)
         {
-            if (!testIsActive)
+            if (!_testIsActive)
             {
                 int checkFileSize;
                 int checkLoops;
-                if ((!string.IsNullOrEmpty(driveLetter.Text) || networkPath.Text.IndexOf("\\\\") == 0 && networkPath.Text.IndexOf("\\", 2) > 2) &&
-                    int.TryParse(fileSize.Text, out checkFileSize) &&
-                    int.TryParse(loops.Text, out checkLoops))
+                if ((!string.IsNullOrEmpty(driveLetterCombo.Text) || networkPath.Text.IndexOf("\\\\") == 0 && networkPath.Text.IndexOf("\\", 2) > 2) &&
+                    int.TryParse(fileSizeCombo.Text, out checkFileSize) &&
+                    int.TryParse(loopsCombo.Text, out checkLoops))
                 {
                     if (checkFileSize <= 64000)
                     {
-                        BenchmarkHandler();
+                        benchmarkHandler();
                     }
                     else
                     {
@@ -302,7 +367,7 @@ namespace NASPerformanceTester
             }
             else
             {
-                loopBreak = true;
+                _loopBreak = true;
                 OutputText("Cancelling. Please wait for current loop to finish...\r\n");
             }
         }
@@ -311,6 +376,17 @@ namespace NASPerformanceTester
         {
             string target = e.Link.LinkData as string;
             Process.Start(target);
+        }
+
+        private void SetDefaultButton_Click(object sender, EventArgs e)
+        {
+            SetDefaults();
+
+        }
+
+        private void resultArea_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
