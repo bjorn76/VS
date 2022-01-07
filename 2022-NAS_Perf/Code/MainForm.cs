@@ -76,7 +76,43 @@ namespace NASPerformanceTester
         protected override void OnLoad(EventArgs e)
         {
             OutputText("\r\n");
-            SetDefaults();
+            //urlLabel.Links[0].LinkData = "www.google.com";
+
+            string lnk = "http://www.808.dk/?code-csharp-nas-performance";
+            urlLabel.Links[0].LinkData = lnk;
+            urlLabel.Text = lnk;
+
+
+
+
+
+
+
+
+            loopsCombo.Items.AddRange(
+            new object[]
+            {
+                    "1",
+                    "3",
+                    "5",
+                    "10",
+                    "50"
+            });
+
+            fileSizeCombo.Items.AddRange(
+            new object[]
+            {
+                    "1",
+                    "5",
+                    "10",
+                    "20",
+                    "100",
+                    "700"
+            });
+
+
+
+
             driveLetterCombo.Items.AddRange(getNetworkDriveLetters());
             if (getNetworkDriveLetters().Length > 0)
             {
@@ -92,6 +128,8 @@ namespace NASPerformanceTester
             {
                 localStoragePath = Path.GetTempPath();
             }
+
+            SetDefaults();
 
             base.OnLoad(e);
         }
@@ -374,19 +412,29 @@ namespace NASPerformanceTester
 
         private void urlLabel_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            string target = e.Link.LinkData as string;
-            Process.Start(target);
+            
+             string target = e.Link.LinkData as string;
+            
+            //MessageBox.Show(e.Link.LinkData as String);
+            //string target = "http://www.808.dk/?code-csharp-nas-performance"; // for now
+
+            System.Diagnostics.Process.Start(target);
+
+
+
+
+
         }
 
         private void SetDefaultButton_Click(object sender, EventArgs e)
         {
             SetDefaults();
+            
 
         }
 
-        private void resultArea_TextChanged(object sender, EventArgs e)
-        {
+   
 
-        }
+
     }
 }
