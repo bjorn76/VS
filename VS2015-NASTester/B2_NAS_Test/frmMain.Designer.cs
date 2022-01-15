@@ -99,9 +99,9 @@
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripStatusLabel1,
             this.toolStripProgressBar1});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 421);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 491);
             this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(498, 22);
+            this.statusStrip1.Size = new System.Drawing.Size(600, 22);
             this.statusStrip1.TabIndex = 11;
             this.statusStrip1.Text = "statusStrip1";
             // 
@@ -223,7 +223,7 @@
             this.resultArea.Location = new System.Drawing.Point(5, 231);
             this.resultArea.Multiline = true;
             this.resultArea.Name = "resultArea";
-            this.resultArea.Size = new System.Drawing.Size(481, 187);
+            this.resultArea.Size = new System.Drawing.Size(595, 257);
             this.resultArea.TabIndex = 14;
             // 
             // backgroundWorker1
@@ -239,7 +239,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(498, 443);
+            this.ClientSize = new System.Drawing.Size(600, 513);
             this.Controls.Add(this.resultArea);
             this.Controls.Add(this.btnInit);
             this.Controls.Add(this.panel1);

@@ -185,7 +185,33 @@ public static class ExcelFunctionCalls
 
     }
 
+    private static string mail2(string mail,
+                            string dirParameter)
 
+    {
+
+        var searcher = new DirectorySearcher("LDAP://" + mail.Split('\\').First().ToLower())
+        {
+
+            Filter = "(&(objectCategory=User)(ObjectClass=person)(mail=" + mail.Split('\\').Last().ToLower() + "*))"
+        };
+
+        var result = searcher.FindOne();
+        if (result == null)
+            return string.Empty;
+
+
+        return result.Properties[dirParameter][0].ToString();
+
+    }
+
+
+    [ExcelFunction(Description = "mail to user.  (C# UDF Function")]
+    public static string B2_mail2user([ExcelArgument(Name = "mail",  Description = "Email address")]
+                                     string mail)
+    {
+        return mail2(mail, "sAMAccountName").ToLower();
+    }
 
 
 
@@ -210,7 +236,7 @@ public static class ExcelFunctionCalls
     public static string B2_User2dn([ExcelArgument(Name = "user_id",  Description = "user id (eg johanb01)")]
                                      string user_id)
     {
-        return User2(user_id, "distinguishedName").ToLower();
+        return User2(user_id, "distinguishedName");
     }
 
 

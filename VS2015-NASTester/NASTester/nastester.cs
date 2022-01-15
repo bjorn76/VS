@@ -6,7 +6,7 @@ using System.IO;
 using System.Threading;
 using System.Reflection;
 
-[assembly: AssemblyTitle("NAS performance tester 1.7")]
+[assembly: AssemblyTitle("NAS performance tester 1.7 - with B2 extra settings")]
 [assembly: AssemblyDescription("A small C# utility for benchmarking the read and write performance of network attached storage")]
 [assembly: AssemblyCompany("www.808.dk")]
 [assembly: AssemblyProduct("NasTester")]
@@ -23,7 +23,8 @@ public class NasPerformanceForm : Form
   private Button benchmarkButton = new Button();
   private TextBox networkPath = new TextBox();
   private ComboBox driveLetter = new ComboBox();
-  private ComboBox fileSize = new ComboBox();
+  private ComboBox cbUNC = new ComboBox(); //B2
+    private ComboBox fileSize = new ComboBox();
   private ComboBox loops = new ComboBox();
   private TextBox resultArea = new TextBox();
   private Label infoLabel = new Label();
@@ -37,34 +38,34 @@ public class NasPerformanceForm : Form
   private Thread workerThread;
   private bool testIsActive = false;
 
-  public NasPerformanceForm()
-  {
-    this.Text = "NAS performance tester 1.7";
-    this.Size = new Size(558, 400);
-    this.Font = new Font("Microsoft Sans Serif", 8);
-    driveLetterLabel.Location = new Point(5, 8);
-    driveLetterLabel.Text = "NAS drive letter";
-    driveLetterLabel.Size = new Size (83, 20);
-    driveLetter.Location = new Point(90, 5);
-    driveLetter.Size = new Size(33, 15);
-    driveLetter.Items.AddRange(GetNetworkDriveLetters());
-    if (GetNetworkDriveLetters().Length > 0)
+    public NasPerformanceForm()
     {
-      driveLetter.SelectedIndex = 0;
-    }
-    networkPathLabel.Location = new Point(123, 8);
-    networkPathLabel.Text = "or network path";
-    networkPathLabel.Size = new Size(80, 20);
-    networkPath.Location = new Point(205, 5);
-    networkPath.Text = "\\\\192.168.0.89\\Public";
-    networkPath.Size = new Size(90, 20);
-    fileSizeLabel.Location = new Point(302, 8);
-    fileSizeLabel.Text = "File size";
-    fileSizeLabel.Size = new Size(50, 20);
-    fileSize.Location = new Point(352, 5);
-    fileSize.Size = new Size(49, 15);
-    fileSize.Items.AddRange(new object[]
-      {"20",
+        this.Text = "NAS performance tester 1.7";
+        this.Size = new Size(558, 400);
+        this.Font = new Font("Microsoft Sans Serif", 8);
+        driveLetterLabel.Location = new Point(5, 8);
+        driveLetterLabel.Text = "NAS drive letter";
+        driveLetterLabel.Size = new Size(83, 20);
+        driveLetter.Location = new Point(90, 5);
+        driveLetter.Size = new Size(33, 15);
+        driveLetter.Items.AddRange(GetNetworkDriveLetters());
+        if (GetNetworkDriveLetters().Length > 0)
+        {
+            driveLetter.SelectedIndex = 0;
+        }
+        networkPathLabel.Location = new Point(123, 8);
+        networkPathLabel.Text = "or network path";
+        networkPathLabel.Size = new Size(80, 20);
+        networkPath.Location = new Point(205, 5);
+        networkPath.Text = "C:\\Temp";
+        networkPath.Size = new Size(90, 20);
+        fileSizeLabel.Location = new Point(302, 8);
+        fileSizeLabel.Text = "File size";
+        fileSizeLabel.Size = new Size(50, 20);
+        fileSize.Location = new Point(352, 5);
+        fileSize.Size = new Size(49, 15);
+        fileSize.Items.AddRange(new object[]
+          {"20",
        "100",
        "200",
        "400",
@@ -73,14 +74,14 @@ public class NasPerformanceForm : Form
        "2000",
        "4000",
        "8000"});
-    fileSize.SelectedIndex = 2;
-    loopsLabel.Location = new Point(407, 8);
-    loopsLabel.Text = "Loops";
-    loopsLabel.Size = new Size(36, 20);
-    loops.Location = new Point(443, 5);
-    loops.Size = new Size(37, 15);
-    loops.Items.AddRange(new object[]
-      {"1",
+        fileSize.SelectedIndex = 0;
+        loopsLabel.Location = new Point(407, 8);
+        loopsLabel.Text = "Loops";
+        loopsLabel.Size = new Size(36, 20);
+        loops.Location = new Point(443, 5);
+        loops.Size = new Size(37, 15);
+        loops.Items.AddRange(new object[]
+          {"1",
        "2",
        "3",
        "4",
@@ -88,8 +89,18 @@ public class NasPerformanceForm : Form
        "10",
        "20",
        "40"});
-    loops.SelectedIndex = 4;
-    benchmarkButton.Location = new Point(487, 5);
+        loops.SelectedIndex = 4;
+        //cbUNC
+
+        cbUNC.Location = new Point(900, 8);
+        cbUNC.Items.AddRange(new object[]
+        { "Hej",
+        "svej"
+
+        });
+
+
+        benchmarkButton.Location = new Point(487, 5);
     benchmarkButton.Size = new Size(50, 20);
     benchmarkButton.Text = "Start";
     resultArea.Location = new Point(5, 30);
@@ -119,6 +130,7 @@ public class NasPerformanceForm : Form
     this.Controls.Add(resultArea);
     this.Controls.Add(infoLabel);
     this.Controls.Add(urlLabel);
+        this.Controls.Add(cbUNC); //B2
     benchmarkButton.Click += new EventHandler(benchmarkButton_Click);
     urlLabel.LinkClicked += new LinkLabelLinkClickedEventHandler(this.urlLabel_LinkClicked);
     this.ActiveControl = networkPath;
@@ -177,7 +189,7 @@ public class NasPerformanceForm : Form
   {
     testIsActive = true;
     loopBreak = false;
-    benchmarkButton.Text = "Stop";
+    //benchmarkButton.Text = "Stop"; //B2 throws exceptioin. Cross thread issues?
     if (String.IsNullOrEmpty(networkPath.Text))
     {
       testPath = driveLetter.Text + ":";

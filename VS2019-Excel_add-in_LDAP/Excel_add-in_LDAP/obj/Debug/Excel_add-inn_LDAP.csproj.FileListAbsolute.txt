@@ -4,4 +4,3 @@ C:\Users\johanb01\GitHub\bjorn76\VS\VS2019-Excel_add-in_LDAP\Excel_add-in_LDAP\b
 C:\Users\johanb01\GitHub\bjorn76\VS\VS2019-Excel_add-in_LDAP\Excel_add-in_LDAP\obj\Debug\Excel_add-inn_LDAP.csproj.CopyComplete
 C:\Users\johanb01\GitHub\bjorn76\VS\VS2019-Excel_add-in_LDAP\Excel_add-in_LDAP\obj\Debug\ClassLibraryExcel01.dll
 C:\Users\johanb01\GitHub\bjorn76\VS\VS2019-Excel_add-in_LDAP\Excel_add-in_LDAP\obj\Debug\ClassLibraryExcel01.pdb
-C:\Users\johanb01\GitHub\bjorn76\VS\VS2019-Excel_add-in_LDAP\Excel_add-in_LDAP\obj\Debug\Excel_add-inn_LDAP.csprojAssemblyReference.cache

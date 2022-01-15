@@ -62,11 +62,11 @@ namespace WindowsFormsApplication1
         private void btnMeasure_Click(object sender, EventArgs e)
         {
             //this.backgroundWorker1.RunWorkerAsync();
-            testPath = "p:";
+            testPath = "C:\\Temp";
 
             //testFileSize = 0; // for warmup run
             testFileSize = 2000000;
-                testIterations = 5;
+                testIterations = 3;
                 testType = "write";
                 this.backgroundWorker2.RunWorkerAsync();
 
@@ -78,7 +78,7 @@ namespace WindowsFormsApplication1
             testIsActive = true;
             loopBreak = false;
 
-            testPath = "c:";
+            testPath = "C:\\Temp";
 
 
             if (!loopBreak)
@@ -138,7 +138,8 @@ namespace WindowsFormsApplication1
                 }
                 else
                 {
-                    firstPath = localStoragePath;
+                    //firstPath = localStoragePath;
+                    firstPath = "c:\\B2NAS\\temp"; //C:\B2NAS\temp
                     secondPath = testPath;
                     shortType = "W";
                 }
@@ -308,7 +309,7 @@ namespace WindowsFormsApplication1
 
         private void btnInit_Click(object sender, EventArgs e)
         {
-            lbNWPaths.Items.Add("C:\\");
+            lbNWPaths.Items.Add("C:\\Temp");
             // MessageBox.Show  (cbLoops.Items.Count.ToString());
             cbLoops.SelectedIndex = 1;
             cbFileSize.SelectedIndex = 1;

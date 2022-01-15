@@ -1,0 +1,6 @@
+C:\Users\johanb01\GitHub\bjorn76\VS\VS2017-RegEdit-ST25-Console\ConsoleApp1\obj\Debug\SetDefenderConsole.csprojResolveAssemblyReference.cache
+C:\Users\johanb01\GitHub\bjorn76\VS\VS2017-RegEdit-ST25-Console\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\Users\johanb01\GitHub\bjorn76\VS\VS2017-RegEdit-ST25-Console\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\Users\johanb01\GitHub\bjorn76\VS\VS2017-RegEdit-ST25-Console\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\Users\johanb01\GitHub\bjorn76\VS\VS2017-RegEdit-ST25-Console\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Users\johanb01\GitHub\bjorn76\VS\VS2017-RegEdit-ST25-Console\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
