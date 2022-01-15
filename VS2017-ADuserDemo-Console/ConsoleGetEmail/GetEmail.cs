@@ -68,16 +68,34 @@ namespace Console_GetEmail
             static public string GetUserEmail(string UserId)
         {
 
+            //UserId = UserId.Replace(" ", ".");
+
             var searcher = new DirectorySearcher("LDAP://" + UserId.Split('\\').First().ToLower())
             {
-                Filter = "(&(ObjectClass=person)(sAMAccountName=" + UserId.Split('\\').Last().ToLower() + "))"
+                //Filter = "(&(ObjectClass=person)(sAMAccountName=" + UserId.Split('\\').Last().ToLower() + "))" //sAMAccountName is older windows
+                Filter = "(&(objectCategory=User)(ObjectClass=person)(mail=" + UserId.Split('\\').Last().ToLower() + "*))"
+                // not work Filter = "(&(objectCategory=User)(ObjectClass=person)(displayName=" + UserId.Split('\\').Last().ToLower() + "*))"
+
             };
+
+
+            // specify which property values to return in the search
+            //searcher.PropertiesToLoad.Add("givenName");   // first name
+            //searcher.PropertiesToLoad.Add("sn");          // last name
+            //searcher.PropertiesToLoad.Add("mail"); distinguishedName
+
 
             var result = searcher.FindOne();
             if (result == null)
                 return string.Empty;
 
-            return result.Properties["mail"][0].ToString();
+            return result.Properties["distinguishedName"][0].ToString();
+            //return result.Properties["sn"][0].ToString();
+            //return result.Properties["mail"][0].ToString();
+            // userPrincipalName
+            //
+
+            //return result.ToString();
 
         }
 

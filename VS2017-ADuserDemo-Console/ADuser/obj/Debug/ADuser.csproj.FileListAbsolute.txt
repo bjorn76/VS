@@ -4,3 +4,10 @@ C:\Users\johanb01\Documents\Visual Studio 2017\Projects\VS2017-ADuserDemo-Consol
 C:\Users\johanb01\Documents\Visual Studio 2017\Projects\VS2017-ADuserDemo-Console\ADuser\bin\Debug\ADuser.pdb
 C:\Users\johanb01\Documents\Visual Studio 2017\Projects\VS2017-ADuserDemo-Console\ADuser\obj\Debug\ADuser.exe
 C:\Users\johanb01\Documents\Visual Studio 2017\Projects\VS2017-ADuserDemo-Console\ADuser\obj\Debug\ADuser.pdb
+C:\Users\johanb01\GitHub\bjorn76\VS\VS2017-ADuserDemo-Console\ADuser\bin\Debug\ADuser.exe.config
+C:\Users\johanb01\GitHub\bjorn76\VS\VS2017-ADuserDemo-Console\ADuser\bin\Debug\ADuser.exe
+C:\Users\johanb01\GitHub\bjorn76\VS\VS2017-ADuserDemo-Console\ADuser\bin\Debug\ADuser.pdb
+C:\Users\johanb01\GitHub\bjorn76\VS\VS2017-ADuserDemo-Console\ADuser\obj\Debug\ADuser.csprojAssemblyReference.cache
+C:\Users\johanb01\GitHub\bjorn76\VS\VS2017-ADuserDemo-Console\ADuser\obj\Debug\ADuser.csproj.CoreCompileInputs.cache
+C:\Users\johanb01\GitHub\bjorn76\VS\VS2017-ADuserDemo-Console\ADuser\obj\Debug\ADuser.exe
+C:\Users\johanb01\GitHub\bjorn76\VS\VS2017-ADuserDemo-Console\ADuser\obj\Debug\ADuser.pdb
